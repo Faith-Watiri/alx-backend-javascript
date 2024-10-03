@@ -2,12 +2,12 @@
 
 export default function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
-    const apiWorks = false; // Simulating that the API is not working
+    const apiWorks = false;
 
     if (apiWorks) {
-      resolve("Success");
+      resolve('Success');
     } else {
-      reject(new Error("The fake API is not working currently"));
+      reject(new Error('The fake API is not working currently'));
     }
   });
 }
